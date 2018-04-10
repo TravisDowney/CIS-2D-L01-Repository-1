@@ -1,0 +1,21 @@
+import java.awt.*;
+
+public class Main {
+
+    public static void main(String[] args){
+        System.out.println("Hello World");
+        System.out.println("Travis");
+
+        Car myCar = new Car(25.5,
+                "1BC32E",
+                Color.BLUE,
+                true);
+        Car sallyCar = new Car(13.9,
+                "3D20BN",
+                Color.BLACK,
+                false);
+        double myCarSpeed = 50;
+        myCarSpeed = myCar.speedingUp(myCarSpeed);
+        System.out.println(myCarSpeed);
+    }
+}
